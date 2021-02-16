@@ -37,7 +37,7 @@ foreach ($client->parseEvents() as $event) {
 							'messages' => [
 								[
 								'type' => 'text',
-								'text' => "ポエム \n お店の電話番号は046-231-7422になります。"
+								'text' => "shopname \n お店の電話番号は046-231-7422になります。"
 								]
 							]
 						]);
@@ -47,10 +47,10 @@ foreach ($client->parseEvents() as $event) {
 							'messages' => [
 								[
 								'type' => 'location',
-								'title' => 'ポエム',
-								'address' => '〒243-0401 神奈川県海老名市東柏ケ谷２丁目２４−３０',
-								'latitude' => 35.471467,
-								'longitude' => 139.426090,
+								'title' => 'shopname',
+								'address' => 'shop-adress',
+								'latitude' => 35.471298,
+								'longitude' => 139.426186,
 								]
 							]
 						]);
